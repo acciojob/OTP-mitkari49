@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.container{
+	border: 5px solid black;
+	border-radius: 9px;
+	padding:15px 12px;
+	text-align:center;
+}
+
+input{
+	width: 80px;
+	height:110px;
+	margin:4px;
+	border-block-color:black;
+	font-size:100px;
+}
+.code-container{
+	padding:20px;
+}

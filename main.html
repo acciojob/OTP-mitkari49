@@ -3,14 +3,28 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <link rel="stylesheet" href="styles.css">
+  <title>OTP Verification</title> </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div id="verification_heading">
+      <h2>Verify Your Account</h2>
+    </div>
+    <div id="verification_subtext">
+      We have emailed you the verification OTP. Please provide the code below.
+    </div>
+   
+    <div class="code-container">
+  <input class="code" id="c1" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+  <input class="code" id="c2" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+  <input class="code" id="c3" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+  <input class="code" id="c4" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+  <input class="code" id="c5" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+  <input class="code" id="c6" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
+</div>
 
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
