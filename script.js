@@ -1,20 +1,19 @@
-//your JS code here. If required.
-let currentInput = document.getElementById('c1');
-
 function handleInput(input) {
-  if (input.value.length == 1) {
-    currentInput = input.nextElementSibling;
-    if (currentInput) {
-      currentInput.focus();
-      currentInput.select();
+  // Move to the next input when a number is entered
+  if (input.value.length === 1) {
+    const nextInput = input.nextElementSibling;
+    if (nextInput) {
+      nextInput.focus();
     }
   }
 }
 
-function handleBackspace(input) {
-  if (input.value == "" && input.previousElementSibling) {
-    currentInput = input.previousElementSibling;
-    currentInput.focus();
-    currentInput.select();
+function handleBackspace(event, input) {
+  // Handle backspace key press
+  if (event.key === "Backspace" && input.value === "") {
+    const previousInput = input.previousElementSibling;
+    if (previousInput) {
+      previousInput.focus();
+    }
   }
 }

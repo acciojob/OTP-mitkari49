@@ -15,14 +15,14 @@
       We have emailed you the verification OTP. Please provide the code below.
     </div>
    
-    <div class="code-container">
-  <input class="code" id="c1" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-  <input class="code" id="c2" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-  <input class="code" id="c3" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-  <input class="code" id="c4" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-  <input class="code" id="c5" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-  <input class="code" id="c6" maxlength="1" oninput="handleInput(this)" oninput="handleBackspace(this)">
-</div>
+     <div class="code-container">
+      <input class="code" id="c1" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+      <input class="code" id="c2" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+      <input class="code" id="c3" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+      <input class="code" id="c4" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+      <input class="code" id="c5" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+      <input class="code" id="c6" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
+	 </div>
 
   <script type="text/javascript" src="./script.js"></script>
 </body>
