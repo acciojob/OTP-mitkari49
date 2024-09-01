@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>OTP Verification</title> </head>
+  <title>OTP Verification</title>
+</head>
 
 <body>
   <div class="container">
@@ -14,15 +17,16 @@
     <div id="verification_subtext">
       We have emailed you the verification OTP. Please provide the code below.
     </div>
-   
-     <div class="code-container">
+
+    <div class="code-container">
       <input class="code" id="c1" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
       <input class="code" id="c2" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
       <input class="code" id="c3" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
       <input class="code" id="c4" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
       <input class="code" id="c5" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
       <input class="code" id="c6" maxlength="1" oninput="handleInput(this)" onkeydown="handleBackspace(event, this)">
-	 </div>
+    </div>
+  </div>
 
   <script type="text/javascript" src="./script.js"></script>
 </body>
